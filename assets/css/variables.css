@@ -1,0 +1,84 @@
+/* Archivo: variables.css
+Escrito por: Alberto Nieto Rocha
+Proyecto: Plantilla Web Para PT */
+
+/* Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+	/* Color principal */
+	--color: rgb(76, 157, 203);
+	--color-w: rgb(255, 247, 237);
+
+	/* Colores tema oscuro */
+	--color-dos-oscuro: rgb(10, 2, 15);
+	--color-tres-oscuro: rgb(234, 231, 231);
+	--color-cuatro-oscuro: rgb(30, 40, 54);
+	--color-cinco-oscuro: rgb(17, 33, 59);
+	--color-seis-oscuro: rgba(16, 11, 36, 0.4);
+
+	/* Colores tema claro */
+	--color-dos-claro: rgb(255, 255, 255);
+	--color-tres-claro: rgba(0, 0, 0, 0.233);
+	--color-cuatro-claro: rgb(255, 255, 255);
+	--color-cinco-claro: rgb(224, 221, 219);
+	--color-seis-claro: rgba(31, 140, 157, 0.508);
+
+	/* Otras propiedades */
+	--body-font-size: 1rem;
+	--body-font-weight: 400;
+	--body-line-height: 1.5;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	text-rendering: optimizeLegibility;
+}
+
+:root {
+	color-scheme: light;
+	--color-uno: var(--color);
+	--color-dos: var(--color-dos-claro);
+	--color-tres: var(--color-tres-claro);
+	--color-cuatro: var(--color-cuatro-claro);
+	--color-cinco: var(--color-cinco-claro);
+	--color-seis: var(--color-seis-claro);
+	--color-w: var(--color-w);
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		color-scheme: dark;
+		--color-uno: var(--color);
+		--color-dos: var(--color-dos-oscuro);
+		--color-tres: var(--color-tres-oscuro);
+		--color-cuatro: var(--color-cuatro-oscuro);
+		--color-cinco: var(--color-cinco-oscuro);
+		--color-seis: var(--color-seis-oscuro);
+		--color-w: var(--color-w);
+	}
+}
+
+[color-scheme="light"] {
+	color-scheme: light;
+	--color-uno: var(--color);
+	--color-dos: var(--color-dos-claro);
+	--color-tres: var(--color-tres-claro);
+	--color-cuatro: var(--color-cuatro-claro);
+	--color-cinco: var(--color-cinco-claro);
+	--color-seis: var(--color-seis-claro);
+	--color-w: var(--color-w);
+}
+
+[color-scheme="dark"] {
+	color-scheme: dark;
+	--color-uno: var(--color);
+	--color-dos: var(--color-dos-oscuro);
+	--color-tres: var(--color-tres-oscuro);
+	--color-cuatro: var(--color-cuatro-oscuro);
+	--color-cinco: var(--color-cinco-oscuro);
+	--color-seis: var(--color-seis-oscuro);
+	--color-w: var(--color-w);
+}

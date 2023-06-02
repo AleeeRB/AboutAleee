@@ -1,0 +1,229 @@
+<!-- Archivo: index.html
+Codificado por aleee -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <title>Portafolio</title>
+  <link rel="icon" type="image/x-icon" href="assets/img/alee.png" />
+  <link rel="stylesheet" href="assets/css/variables.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <!-- Sidebar -->
+  <aside id="sidebar" class="sidebar">
+    <ul class="sidebar__menu">
+      <!-- Logo del sitio -->
+      <li class="sidebar__item">
+        <div class="logo">
+          <img class="logo__img" src="">
+          <!-- Título del sitio -->
+          <a class="sidebar__titulo" href="#">
+            <span class="sidebar__titulo sidebar__titulo-destacado">Aleee
+              <span class="sidebar__titulo sidebar__titulo-alternativo">Dev</span>
+            </span>
+          </a>
+        </div>
+      </li>
+      <li class="sidebar__item">
+        <a class="sidebar__link active" href="#about">
+          <i class='bx bxs-directions sidebar__icon'></i>
+          <span class="sidebar__text">Mis Proyectos</span>
+        </a>
+        <ul class="sidebar__submenu">
+          <li class="submenu__item">
+            <a class="submenu__link" href="#a1">
+              <span class="submenu__text">PROYECTO</span>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li class="sidebar__item">
+        <a class="sidebar__link" href="#redes">
+          <i class='bx bxs-extension bx-rotate-270 sidebar__icon'></i>
+          <span class="sidebar__text">Redes</span>
+        </a>
+      </li>
+      <li class="sidebar__item">
+        <a class="sidebar__link" href="#trabajos">
+          <i class='bx bxs-cat sidebar__icon'></i>
+          <span class="sidebar__text">Trabajos</span>
+        </a>
+      </li>
+    </ul>
+  </aside>
+  <!-- Menú superior -->
+  <nav id="navbar" class="navbar">
+    <!-- Contenido izquierda -->
+    <div class="navbar__container navbar__container-left">
+      <a class="navbar__link navbar__button-left navbar__button-disabled">
+        <i class='bx bx-menu bar__icono-left'></i>
+      </a>
+    </div>
+    <!-- Contenido derecha -->
+    <div class="navbar__container navbar__container-right">
+      <ul class="navbar__ul">
+        <li class="navbar__li">
+          <a class="navbar__link">
+            <i id="theme-enabled" class='bx bx-brightness-half bar__icono'></i>
+            <span class="navbar__texto">Tema</span>
+          </a>
+          <!-- Menú desplegable -->
+          <div id="navbar__theme-switcher" class="navbar__desplegable navbar__desplegable-disabled">
+            <a class="navbar__desplegable__link navbar__theme-enabled">
+              <i class='bx bx-brightness-half bar__icono'></i>
+              <span id="theme-0" class="navbar__texto">Default</span>
+            <a class="navbar__desplegable__link">
+              <i class='bx bx-sun bar__icono'></i>
+              <span id="theme-1" class="navbar__texto">Claro</span>
+            </a>
+            <a class="navbar__desplegable__link">
+              <i class='bx bx-moon bar__icono'></i>
+              <span id="theme-2" class="navbar__texto">Oscuro</span>
+            </a>
+          </div>
+        </li>
+      </ul>
+      <!-- Botón SOURCE -->
+      <a href="https://github.com/AleeeRB" target="_black" rel="external" class="button button-highlighted">Source</a>
+
+    
+    </div>
+  </nav>
+  <!-- Contenido de la página -->
+  <main id="main" class="main">
+    <div id="about" class="card">
+      <h1 class="card__title">About Me</h1>
+      <p class="card__text">↓</p>
+    </div>
+    <!-- Información sobre el proyecto -->
+    <section>
+      <h1 class="title">Sobre el Mi<span class="date"></span></h1>
+      <p>
+        Hola, soy Alessandro tambien conocido como AleeeDev o Ale, actualmente tengo 14 años, Hincha De Boca Jrs y de Xelaju MC, Programador junior y que mas puedo decir de alguien aburrido como yo? 
+      </p>
+      <!-- Keywords -->
+      <h3>Skills</h3>
+      <div class="keywords">
+        <ul>
+          <li class="keywords__item"><i class='bx bxs-circle circle'></i>HTML</li>
+          <li class="keywords__item"><i class='bx bxs-circle circle'></i>CSS</li>
+          <li class="keywords__item"><i class='bx bxs-circle circle'></i>Javascript</li>
+          <li class="keywords__item"><i class='bx bxs-circle circle'></i>JSON</li>
+          <li class="keywords__item"><i class='bx bxs-circle circle'></i>Java</li>
+        </ul>
+      </div>
+      <h2 id="a1">Proyecto 1</h2>
+      <p>
+        Este es un proyecto muy personal el cual es AleeeStudios es un pequeño proyecto basado en Configuracion de servidores de minecraft y otro tipo de programacion como paginas web entre otras.
+      </p>
+      <!-- Imágenes -->
+      <div class="image">
+       <!-- <img class="image__item" src="assets/img/img1.jpg" /> -->
+        </figcaption>
+      </figure>
+
+    </section>
+    <!-- Sección redes -->
+    <section id="redes">
+      <h2 class="title">Redes</h2>
+      <div class="redes">
+        <!-- ig -->
+        <div class="components__card">
+          <img class="components__img" src="assets/img/instagram.gif" />
+          <div class="components__info">
+            <b>Instagram</b>
+            <p class="info__text">Este es mi instagram Personal</p>
+            <a href="https://www.instagram.com/aleeedev/" target="_blank" rel="external" class="button button-right"> Ir al sitio </a>
+          </div>
+        </div>
+        <!-- tw -->
+        <div class="components__card">
+          <img class="components__img" src="assets/img/twitter.gif" />
+          <div class="components__info">
+            <b>Twitter</b>
+            <p class="info__text">Este es mi twitter personal </p>
+            <a href="https://twitter.com/AlessPqolo" target="_blank" rel="external"
+              class="button button-right">Ir
+              al sitio</a>
+          </div>
+        </div>
+        <!-- GH -->
+        <div class="components__card">
+          <img class="components__img" src="assets/img/github.gif" />
+          <div class="components__info">
+            <b>GitHub</b>
+            <p class="info__text">Mi github donde puedes encontrar el source de pagina web totalmente gratis
+            </p>
+            <a href="https://github.com/AleeeRB" target="_blank" rel="external" class="button button-right">Ir
+              al
+              sitio</a>
+          </div>
+        </div>
+      </div>
+      <hr />
+    </section>
+    <!-- Sección trabajos -->
+    <section id="trabajos">
+      <h2 class="title">Trabajo</h2>
+      <p></p>
+      <table class="table__downloads">
+        <tr>
+          </td>
+        </tr>
+          </td>
+        </tr>
+        <tr>
+          <td class="table__td-left"><img class="table__icon" src="assets/img/logoCCD.png" />AleeeStudios
+          </td>
+          <td>
+            <a href="http://aleeestudio.ml" class="button"
+              target="_blank">Ir al sitio<i class='bx bxs-heart icon__downloads'></i></a>
+          </td>
+        </tr>
+        <tr>
+          <td class="table__td-left"><img class="table__icon" src="" />Proximamente..
+           </td>
+          <td class="table__td-right">
+            <a href="assets/prx/index.html"
+              class="button" target="_blank">Ir al sitio<i class='bx bxs-heart icon__downloads'></i></a>
+          </td>
+        </tr>
+      </table>
+      <hr />
+    </section>
+  </main>
+  <!-- Pie de página -->
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__item">
+        <a href="" target="_blank">
+          <img class="footer__image" src="" />
+        </a>
+      </div>
+      <div class="footer__item">
+        <a href="https://www.instagram.com/aleeedev/" target="_blank">
+          <img class="footer__image" src="assets/img/logoCCD.png" />
+        </a>
+      </div>
+      <div class="footer__item">
+        <a href="" target="_blank">
+          <img class="footer__image" src="" />
+        </a>
+      </div>
+      <!-- Footer  -->
+      <hr class="footer__line" />
+      <p class="info">Pagina & diseño creada por @AleeeDev
+      </p>
+    </div>
+  </footer>
+  <!-- Scripts -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+  <script type="text/javascript" src="assets/js/index.js"></script>
+</body>
+
+</html>
